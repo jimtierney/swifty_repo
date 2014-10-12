@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         
     }
     
-    func thisIsMyFirstMethod(var,NSString){
+    func thisIsMyFirstMethod(returnedString: string){
         var returnedVariable = "returned string"
         return returnedVariable
     }
