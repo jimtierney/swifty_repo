@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        var myFirstVariable = "My first variable which will be a string in this instance"
+        let myFirstConstant = [myFirstVariable:"firstKey"]
         // Do any additional setup after loading the view, typically from a nib.
     }
 
